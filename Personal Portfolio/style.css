@@ -1,0 +1,107 @@
+* {
+  text-decoration: none;
+  font-family: Poppins;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 6%;
+}
+.logo {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+.tabs a {
+  margin: 0.7rem;
+  font-size: 1.2rem;
+  color: #000;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8rem 0;
+}
+.hero h1 {
+  font-size: 2rem;
+}
+.multi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+.multi .left {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.multi .left a {
+  color: green;
+  line-height: 1.6rem;
+}
+.multi .mid a {
+  color: green;
+}
+.multi .mid {
+  width: 400px;
+}
+.multi .right {
+  width: 400px;
+}
+.rev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.rev .kotak {
+  display: flex;
+  justify-content: space-around;
+}
+.rev .kotak .box {
+  border: 2px solid #000;
+  width: 400px;
+  border-radius: 14px;
+}
+footer {
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 80%;
+  }
+  nav {
+    display: block;
+    text-align: center;
+  }
+  nav .tabs {
+    margin-top: 0.5rem;
+  }
+  nav .tabs a {
+    font-size: 1rem;
+  }
+  .multi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rev {
+    display: flex;
+    flex-direction: column;
+  }
+  .rev .kotak {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .rev .kotak .box {
+    margin-bottom: 1.2rem;
+  }
+}
